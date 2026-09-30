@@ -31,7 +31,7 @@ pipeline {
         DOCKER_CREDENTIALS_ID = 'dockerhub-credentials'
         IMAGE_TAG = "${BUILD_NUMBER}"
         COMPOSE_FILE = 'docker-compose.homol.yml'
-        API_PORT = '8081'
+        API_PORT = '8082'
         BFF_PORT = '3000'
         PGADMIN_PORT = '5050'
         PROMETHEUS_PORT = '9091'
